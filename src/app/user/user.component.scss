@@ -2,3 +2,19 @@
   height: 130px;
   display: flex;
 }
+
+.marked{
+  font-weight: bold;
+  color: red;
+}
+.card .card-image .card-title.marked{
+  color: red;
+}
+
+.hovered{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s all;
+  position: relative;
+  z-index: 10;
+}
